@@ -5,3 +5,4 @@ build/
 .idea/libraries/
 /.idea/workspace.xml
 .DS_Store
+.idea/*

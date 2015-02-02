@@ -16,26 +16,18 @@
 
         <activity
             android:name="com.singingbush.barcodescanner.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/company"
+            android:icon="@drawable/aku_logo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".ScanditActivity"/>
-
-        <activity android:name=".RedLaserActivity"/>
-
         <activity android:name=".ZBarScannerActivity"
             android:label="@string/app_name"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="portrait"/>
 
-        <activity
-            android:name=".AboutActivity"
-            android:label="@string/about_title"
-            android:theme="@android:style/Theme.Dialog"
-            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

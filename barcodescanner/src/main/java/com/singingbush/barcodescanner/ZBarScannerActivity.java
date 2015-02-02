@@ -82,6 +82,7 @@ public class ZBarScannerActivity extends Activity implements Camera.PreviewCallb
 
         // Open the default i.e. the first rear facing camera.
         mCamera = Camera.open();
+        mCamera.setDisplayOrientation(90);
         if(mCamera == null) {
             // Cancel request if mCamera is null.
             cancelRequest();
